@@ -12,20 +12,7 @@ The goal was to simulate a real production-like deployment and learn core cloud 
 
 ## Architecture
 
-User
- |
-Internet
- |
-Security Group (Firewall
-Rules)
- |
-EC2 Ubuntu Instance
- |
-Nginx Reverse Proxy / Web
-Server
- |
-Portfolio Website
-(HTML/CSS/JS)
+User -> Internet -> Security Group (Firewall Rules) -> EC2 Ubuntu Instance -> Nginx Reverse Proxy / WebServer -> Portfolio Website (HTML/CSS/JS)
 
 ---
 
